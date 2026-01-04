@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode / Swift
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode build outputs
+build/
+Build/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# If you use CocoaPods (ideally you won't for this project)
+Pods/
+*.xcworkspace
+
+# If you use Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Server / env secrets
+.env
+.env.*
+*.pem
+*.p12
+*.key
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# XCTest / Simulator artifacts (rare but can show up)
+*.xctestrun

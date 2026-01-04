@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC64A962F09FAC0008B8849 /* GameCore in Frameworks */ = {isa = PBXBuildFile; productRef = FEC64A952F09FAC0008B8849 /* GameCore */; };
+		FEC64A992F09FAD6008B8849 /* CatanProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = FEC64A982F09FAD6008B8849 /* CatanProtocol */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC64A782F09FA21008B8849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC64A622F09FA20008B8849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC64A692F09FA20008B8849;
+			remoteInfo = TradeRoads;
+		};
+		FEC64A822F09FA21008B8849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC64A622F09FA20008B8849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC64A692F09FA20008B8849;
+			remoteInfo = TradeRoads;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC64A6A2F09FA20008B8849 /* TradeRoads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeRoads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC64A772F09FA21008B8849 /* TradeRoadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeRoadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC64A812F09FA21008B8849 /* TradeRoadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeRoadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FEC64A6C2F09FA20008B8849 /* TradeRoads */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeRoads;
+			sourceTree = "<group>";
+		};
+		FEC64A7A2F09FA21008B8849 /* TradeRoadsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeRoadsTests;
+			sourceTree = "<group>";
+		};
+		FEC64A842F09FA21008B8849 /* TradeRoadsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradeRoadsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC64A672F09FA20008B8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC64A992F09FAD6008B8849 /* CatanProtocol in Frameworks */,
+				FEC64A962F09FAC0008B8849 /* GameCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A742F09FA21008B8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A7E2F09FA21008B8849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC64A612F09FA20008B8849 = {
+			isa = PBXGroup;
+			children = (
+				FEC64A6C2F09FA20008B8849 /* TradeRoads */,
+				FEC64A7A2F09FA21008B8849 /* TradeRoadsTests */,
+				FEC64A842F09FA21008B8849 /* TradeRoadsUITests */,
+				FEC64A6B2F09FA20008B8849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC64A6B2F09FA20008B8849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC64A6A2F09FA20008B8849 /* TradeRoads.app */,
+				FEC64A772F09FA21008B8849 /* TradeRoadsTests.xctest */,
+				FEC64A812F09FA21008B8849 /* TradeRoadsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC64A692F09FA20008B8849 /* TradeRoads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC64A8B2F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoads" */;
+			buildPhases = (
+				FEC64A662F09FA20008B8849 /* Sources */,
+				FEC64A672F09FA20008B8849 /* Frameworks */,
+				FEC64A682F09FA20008B8849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FEC64A6C2F09FA20008B8849 /* TradeRoads */,
+			);
+			name = TradeRoads;
+			packageProductDependencies = (
+				FEC64A952F09FAC0008B8849 /* GameCore */,
+				FEC64A982F09FAD6008B8849 /* CatanProtocol */,
+			);
+			productName = TradeRoads;
+			productReference = FEC64A6A2F09FA20008B8849 /* TradeRoads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC64A762F09FA21008B8849 /* TradeRoadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC64A8E2F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoadsTests" */;
+			buildPhases = (
+				FEC64A732F09FA21008B8849 /* Sources */,
+				FEC64A742F09FA21008B8849 /* Frameworks */,
+				FEC64A752F09FA21008B8849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC64A792F09FA21008B8849 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FEC64A7A2F09FA21008B8849 /* TradeRoadsTests */,
+			);
+			name = TradeRoadsTests;
+			packageProductDependencies = (
+			);
+			productName = TradeRoadsTests;
+			productReference = FEC64A772F09FA21008B8849 /* TradeRoadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC64A802F09FA21008B8849 /* TradeRoadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC64A912F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoadsUITests" */;
+			buildPhases = (
+				FEC64A7D2F09FA21008B8849 /* Sources */,
+				FEC64A7E2F09FA21008B8849 /* Frameworks */,
+				FEC64A7F2F09FA21008B8849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC64A832F09FA21008B8849 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FEC64A842F09FA21008B8849 /* TradeRoadsUITests */,
+			);
+			name = TradeRoadsUITests;
+			packageProductDependencies = (
+			);
+			productName = TradeRoadsUITests;
+			productReference = FEC64A812F09FA21008B8849 /* TradeRoadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC64A622F09FA20008B8849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					FEC64A692F09FA20008B8849 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					FEC64A762F09FA21008B8849 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = FEC64A692F09FA20008B8849;
+					};
+					FEC64A802F09FA21008B8849 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = FEC64A692F09FA20008B8849;
+					};
+				};
+			};
+			buildConfigurationList = FEC64A652F09FA20008B8849 /* Build configuration list for PBXProject "TradeRoads" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC64A612F09FA20008B8849;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FEC64A942F09FAC0008B8849 /* XCLocalSwiftPackageReference "../../../Packages/GameCore" */,
+				FEC64A972F09FAD6008B8849 /* XCLocalSwiftPackageReference "../../../Packages/CatanProtocol" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEC64A6B2F09FA20008B8849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC64A692F09FA20008B8849 /* TradeRoads */,
+				FEC64A762F09FA21008B8849 /* TradeRoadsTests */,
+				FEC64A802F09FA21008B8849 /* TradeRoadsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC64A682F09FA20008B8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A752F09FA21008B8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A7F2F09FA21008B8849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC64A662F09FA20008B8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A732F09FA21008B8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC64A7D2F09FA21008B8849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC64A792F09FA21008B8849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC64A692F09FA20008B8849 /* TradeRoads */;
+			targetProxy = FEC64A782F09FA21008B8849 /* PBXContainerItemProxy */;
+		};
+		FEC64A832F09FA21008B8849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC64A692F09FA20008B8849 /* TradeRoads */;
+			targetProxy = FEC64A822F09FA21008B8849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEC64A892F09FA21008B8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC64A8A2F09FA21008B8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC64A8C2F09FA21008B8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC64A8D2F09FA21008B8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEC64A8F2F09FA21008B8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeRoads.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradeRoads";
+			};
+			name = Debug;
+		};
+		FEC64A902F09FA21008B8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeRoads.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradeRoads";
+			};
+			name = Release;
+		};
+		FEC64A922F09FA21008B8849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradeRoads;
+			};
+			name = Debug;
+		};
+		FEC64A932F09FA21008B8849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F3KV9WTNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcraig.TradeRoadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TradeRoads;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC64A652F09FA20008B8849 /* Build configuration list for PBXProject "TradeRoads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC64A892F09FA21008B8849 /* Debug */,
+				FEC64A8A2F09FA21008B8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC64A8B2F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC64A8C2F09FA21008B8849 /* Debug */,
+				FEC64A8D2F09FA21008B8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC64A8E2F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC64A8F2F09FA21008B8849 /* Debug */,
+				FEC64A902F09FA21008B8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC64A912F09FA21008B8849 /* Build configuration list for PBXNativeTarget "TradeRoadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC64A922F09FA21008B8849 /* Debug */,
+				FEC64A932F09FA21008B8849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FEC64A942F09FAC0008B8849 /* XCLocalSwiftPackageReference "../../../Packages/GameCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../Packages/GameCore;
+		};
+		FEC64A972F09FAD6008B8849 /* XCLocalSwiftPackageReference "../../../Packages/CatanProtocol" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../Packages/CatanProtocol;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEC64A952F09FAC0008B8849 /* GameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameCore;
+		};
+		FEC64A982F09FAD6008B8849 /* CatanProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CatanProtocol;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FEC64A622F09FA20008B8849 /* Project object */;
+}
