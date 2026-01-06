@@ -1,0 +1,16 @@
+{
+  "correlation_id": "req-old-001",
+  "message": {
+    "protocol_error": {
+      "_0": {
+        "code": "unsupportedVersion",
+        "message": "Protocol version 0.5 is not supported. Minimum supported: 1.0, current: 1.0"
+      }
+    }
+  },
+  "protocol_version": {
+    "major": 1,
+    "minor": 0
+  },
+  "sent_at": "2024-01-01T12:00:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "last_seen_event_index": 42,
+  "message": {
+    "build_road": {
+      "_0": {
+        "edge_id": 15,
+        "is_free": false
+      }
+    }
+  },
+  "protocol_version": {
+    "major": 1,
+    "minor": 0
+  },
+  "request_id": "req-build-001",
+  "sent_at": "2024-01-01T12:05:00Z"
+}

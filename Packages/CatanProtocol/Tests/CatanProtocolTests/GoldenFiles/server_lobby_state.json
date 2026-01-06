@@ -1,0 +1,40 @@
+{
+  "correlation_id": "req-join-001",
+  "message": {
+    "lobby_joined": {
+      "_0": {
+        "available_colors": [
+          "white",
+          "orange"
+        ],
+        "host_id": "user-host-123",
+        "lobby_code": "WXYZ",
+        "lobby_id": "lobby-456",
+        "lobby_name": "Friday Night Catan",
+        "player_mode": "3-4",
+        "players": [
+          {
+            "color": "red",
+            "display_name": "HostPlayer",
+            "is_host": true,
+            "is_ready": true,
+            "user_id": "user-host-123"
+          },
+          {
+            "color": "blue",
+            "display_name": "JoiningPlayer",
+            "is_host": false,
+            "is_ready": false,
+            "user_id": "user-join-456"
+          }
+        ],
+        "use_beginner_layout": false
+      }
+    }
+  },
+  "protocol_version": {
+    "major": 1,
+    "minor": 0
+  },
+  "sent_at": "2024-01-01T12:02:00Z"
+}

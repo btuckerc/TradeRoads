@@ -1,0 +1,76 @@
+{
+  "correlation_id": "req-roll-001",
+  "message": {
+    "game_events": {
+      "_0": {
+        "end_index": 3,
+        "events": [
+          {
+            "dice_rolled": {
+              "_0": {
+                "die1": 3,
+                "die2": 5,
+                "player_id": "player-1",
+                "total": 8
+              }
+            }
+          },
+          {
+            "resources_produced": {
+              "_0": {
+                "dice_total": 8,
+                "production": [
+                  {
+                    "player_id": "player-1",
+                    "resources": {
+                      "brick": 2,
+                      "grain": 0,
+                      "lumber": 0,
+                      "ore": 0,
+                      "wool": 0
+                    },
+                    "sources": [
+                      {
+                        "amount": 2,
+                        "building_type": "city",
+                        "hex_id": 5,
+                        "node_id": 12,
+                        "resource": "brick"
+                      }
+                    ]
+                  },
+                  {
+                    "player_id": "player-2",
+                    "resources": {
+                      "brick": 0,
+                      "grain": 1,
+                      "lumber": 0,
+                      "ore": 0,
+                      "wool": 0
+                    },
+                    "sources": [
+                      {
+                        "amount": 1,
+                        "building_type": "settlement",
+                        "hex_id": 7,
+                        "node_id": 18,
+                        "resource": "grain"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "game_id": "game-xyz-789",
+        "start_index": 2
+      }
+    }
+  },
+  "protocol_version": {
+    "major": 1,
+    "minor": 0
+  },
+  "sent_at": "2024-01-01T12:15:00Z"
+}
